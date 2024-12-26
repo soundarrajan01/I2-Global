@@ -1,0 +1,19 @@
+.AddbtnOutline {
+    display: flex;
+    justify-content: end;
+    margin: 30px !important;
+}
+
+.AddBtn {
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: #274375;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.TableOutline {
+    margin: 20px !important;
+}

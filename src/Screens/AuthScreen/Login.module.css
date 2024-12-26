@@ -1,0 +1,67 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    /* width: 100% !important;
+    height: 100vh !important; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #abdbeb;
+    width: 100%;
+}
+
+.authContainer {
+    display: flex;
+    background: linear-gradient(45deg, white, #ffffff6b, #ffffff4f);
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    height: 500px;
+
+}
+
+.loginBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    min-height: 380px;
+    flex-wrap: wrap;
+    /* height: 300px; */
+    padding: 20px !important;
+    max-height: 400px;
+    overflow: scroll !important;
+    background: linear-gradient(45deg, white, #ffffff6b, #ffffff4f);
+}
+
+.logoImage {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 109px;
+}
+
+.logoImageOutline {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px !important;
+}
+
+.SignupText {
+    display: flex;
+    justify-content: end;
+    color: blue;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 6px !important;
+    cursor: pointer;
+}

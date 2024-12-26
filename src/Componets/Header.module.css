@@ -1,0 +1,25 @@
+.headerOutline {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    gap: 15px;
+    background-color: #274375;
+    height: 50px;
+    align-items: center;
+}
+
+
+.unselectedHeader {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.SelectedHeader {
+    background: white;
+    padding: 14px !important;
+    border-radius: 10px;
+    color: black;
+}
